@@ -7,6 +7,7 @@
   --cor-button-background: #ccaaff;
   --cor-button-hover: #e1cffc;
   --h1-before: linear-gradient(to right, #ccaaff, #e1cffc);
+  --borda: 2px solid #f5f7fa;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -56,7 +57,7 @@ input {
   font-size: 1rem;
   padding: 0.3rem 1rem;
   border-radius: 0.3rem;
-  border: 2px solid #f5f7fa;
+  border: var(--borda);
 }
 button {
   margin-top: 0.5rem;
