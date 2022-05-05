@@ -7,8 +7,8 @@ O intuito deste formulário totalmente responsivo foi para praticar meus aprendi
 
 ## Modo claro
 
-<img src="./image/imagem-clara.png">
+<img src="./image/imagem-clara.PNG">
 
 ## Modo escuro
 
-<img src="./image/imagem-escura.png">
+<img src="./image/imagem-escura.PNG">
