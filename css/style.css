@@ -2,16 +2,17 @@
   --fundo: #e6eaf0;
   --fundo-2: #f5f7fa;
   --cor-texto: #000000;
-  --cor-button: #caf;
+  --cor-button-texto: #634491;
+  --cor-button-background: #ccaaff;
   --cor-button-hover: #e1cffc;
-  --h1-before: linear-gradient(to right, #caf, #e1cffc);
+  --h1-before: linear-gradient(to right, #ccaaff, #e1cffc);
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --fundo: #1b1d20;
     --fundo-2: #404040;
     --cor-texto: #e3e3e3;
-    --h1-before: linear-gradient(to right, black, #e6e3e3);
+    --h1-before: linear-gradient(to right, #000000, #e6e3e3);
   }
 }
 * {
@@ -59,8 +60,9 @@ button {
   margin-top: 0.5rem;
   padding: 1rem 2rem;
   font-size: 18px;
-  background-color: var(--cor-button);
+  background-color: var(--cor-button-background);
   border: none;
+  color: var(--cor-button-texto);
 }
 button:hover {
   background-color: var(--cor-button-hover);
@@ -80,6 +82,10 @@ button:hover {
   padding: 1rem;
   border-radius: 0.5rem;
 }
+[for="sobrenome"] {
+  grid-column: 2;
+  grid-row: 1;
+}
 [type="email"] {
   grid-column: 1/-1;
 }
@@ -98,7 +104,7 @@ button:hover {
   .container-form {
     grid-template-columns: 1fr;
   }
-  [name="nome"] {
-    grid-row: 2;
+  [for="sobrenome"] {
+    grid-area: initial;
   }
 }
