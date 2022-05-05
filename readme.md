@@ -5,6 +5,8 @@ O intuito deste formulário totalmente responsivo foi para praticar meus aprendi
 - Propriedades customizadas (variáveis css);
 - Modo claro e escuro (via css); //de acordo com a prefêrencia do usuário nas configurações do browser.
 
+Desenvolvido: 05/05/2022
+
 ## Modo claro
 
 <img src="./image/imagem-clara.PNG">
