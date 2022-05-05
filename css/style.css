@@ -2,7 +2,8 @@
   --fundo: #e6eaf0;
   --fundo-2: #f5f7fa;
   --cor-texto: #000000;
-  --cor-button-texto: #634491;
+  --cor-label-texto: #5e5d5d;
+  --cor-button-texto: #2a2238;
   --cor-button-background: #ccaaff;
   --cor-button-hover: #e1cffc;
   --h1-before: linear-gradient(to right, #ccaaff, #e1cffc);
@@ -12,6 +13,7 @@
     --fundo: #1b1d20;
     --fundo-2: #404040;
     --cor-texto: #e3e3e3;
+    --cor-label-texto: #bfbaba;
     --h1-before: linear-gradient(to right, #000000, #e6e3e3);
   }
 }
@@ -48,7 +50,7 @@ form {
 }
 label {
   font-size: 1.3rem;
-  color: #878787;
+  color: var(--cor-label-texto);
 }
 input {
   font-size: 1rem;
